@@ -1,4 +1,4 @@
-Voir le rapport de projet pour plus de compréhensibilité :
+Voir le rapport de projet pour une compréhensibilité complète :
 [E6-2-2023-BTS-SNIR-JulesFERRY-POUSSE_SERINGUE.pdf](https://github.com/kvn-chn/pousse-seringue/files/13846749/E6-2-2023-BTS-SNIR-JulesFERRY-POUSSE_SERINGUE.pdf)
 
 
