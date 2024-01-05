@@ -1,3 +1,7 @@
+Voir le rapport de projet pour plus de compréhensibilité :
+[E6-2-2023-BTS-SNIR-JulesFERRY-POUSSE_SERINGUE.pdf](https://github.com/kvn-chn/pousse-seringue/files/13846749/E6-2-2023-BTS-SNIR-JulesFERRY-POUSSE_SERINGUE.pdf)
+
+
 # Pousse-Seringue
 
 ![pousseseringue](https://github.com/kvn-chn/pousse-seringue/assets/139592148/a5bfb479-20fe-4b07-8901-13b35147b823)
@@ -36,3 +40,6 @@ Le pousse-seringue possède un moteur électrique pas à pas, doté d’un rédu
 # Scénario théorique 
 
 <img width="1141" alt="Capture d’écran 2024-01-05 à 22 17 08" src="https://github.com/kvn-chn/pousse-seringue/assets/139592148/4bbefc0a-52e2-4780-8463-a042b61056d3">
+
+Voici un schéma d’un scénario normal. L’infirmier vient configurer une injection sur l’IHM. Une fois finie, d’un côté l’IHM va envoyer les données utiles sur la base de données et viendra faire des MaJ des données constant. D’un autre côté, l’IHM va déterminer nbPas que le moteur ait à faire et envoi vers la carte Velleman qui viendra en retour envoyer nbPasRestant qui sera affiché sur l’IHM. Une fois que la carte Velleman a eu nbPas et le débit, il peut mettre en marche le moteur qui poussera sur la seringue et administrer le patient. 
+
